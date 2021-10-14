@@ -1,0 +1,8 @@
+input/stanford-covid-vaccine/bpps/*
+input/stanford-covid-vaccine/post_deadline_files/*  
+input/stanford-covid-vaccine/*.csv  
+input/stanford-covid-vaccine/*.json
+py/__pycache__/*
+pretrained_model/*
+trained_model/*
+output/*

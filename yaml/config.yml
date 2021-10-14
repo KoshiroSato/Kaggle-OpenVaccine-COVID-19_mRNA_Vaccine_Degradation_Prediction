@@ -1,0 +1,14 @@
+base_path: '/tf/Kaggle-OpenVaccine-COVID-19_mRNA_Vaccine_Degradation_Prediction'
+comp_data: 'input/stanford-covid-vaccine'
+aug_data: 'input/openvaccine-augmentation-data'
+pred_cols: ['id_seqpos', 'reactivity', 'deg_Mg_pH10', 'deg_pH10', 'deg_Mg_50C', 'deg_50C']
+pub_seq_len: 107
+pub_seq_len_target: 68
+pri_seq_len: 130
+seed: 42
+folds: 6
+ae_epochs: 20
+ae_epochs_each: 5
+ae_batch_size: 64
+epochs_list: [30, 10, 3, 3, 5, 5]
+batch_size_list: [8, 16, 32, 64, 128, 256]
